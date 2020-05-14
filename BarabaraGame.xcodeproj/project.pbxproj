@@ -13,6 +13,10 @@
 		AEBBEAFF246CD2BF00F00590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBBEAFD246CD2BF00F00590 /* Main.storyboard */; };
 		AEBBEB01246CD2C100F00590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBBEB00246CD2C100F00590 /* Assets.xcassets */; };
 		AEBBEB04246CD2C100F00590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBBEB02246CD2C100F00590 /* LaunchScreen.storyboard */; };
+		AEBBEB0E246CD47F00F00590 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = AEBBEB0C246CD47F00F00590 /* tail.png */; };
+		AEBBEB0F246CD47F00F00590 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = AEBBEB0D246CD47F00F00590 /* bar.png */; };
+		AEBBEB11246CED9200F00590 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBEB10246CED9200F00590 /* GameViewController.swift */; };
+		AEBBEB13246CEDAE00F00590 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBBEB12246CEDAE00F00590 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AEBBEB00246CD2C100F00590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEBBEB03246CD2C100F00590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEBBEB05246CD2C100F00590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBBEB0C246CD47F00F00590 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		AEBBEB0D246CD47F00F00590 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		AEBBEB10246CED9200F00590 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AEBBEB12246CEDAE00F00590 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		AEBBEAF6246CD2BF00F00590 /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				AEBBEB0B246CD47F00F00590 /* Barabara素材 */,
 				AEBBEAF7246CD2BF00F00590 /* AppDelegate.swift */,
 				AEBBEAF9246CD2BF00F00590 /* SceneDelegate.swift */,
 				AEBBEAFB246CD2BF00F00590 /* ViewController.swift */,
@@ -63,8 +72,19 @@
 				AEBBEB00246CD2C100F00590 /* Assets.xcassets */,
 				AEBBEB02246CD2C100F00590 /* LaunchScreen.storyboard */,
 				AEBBEB05246CD2C100F00590 /* Info.plist */,
+				AEBBEB10246CED9200F00590 /* GameViewController.swift */,
+				AEBBEB12246CEDAE00F00590 /* RankingViewController.swift */,
 			);
 			path = BarabaraGame;
+			sourceTree = "<group>";
+		};
+		AEBBEB0B246CD47F00F00590 /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				AEBBEB0C246CD47F00F00590 /* tail.png */,
+				AEBBEB0D246CD47F00F00590 /* bar.png */,
+			);
+			path = "Barabara素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEBBEB04246CD2C100F00590 /* LaunchScreen.storyboard in Resources */,
+				AEBBEB0F246CD47F00F00590 /* bar.png in Resources */,
+				AEBBEB0E246CD47F00F00590 /* tail.png in Resources */,
 				AEBBEB01246CD2C100F00590 /* Assets.xcassets in Resources */,
 				AEBBEAFF246CD2BF00F00590 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEBBEB13246CEDAE00F00590 /* RankingViewController.swift in Sources */,
+				AEBBEB11246CED9200F00590 /* GameViewController.swift in Sources */,
 				AEBBEAFC246CD2BF00F00590 /* ViewController.swift in Sources */,
 				AEBBEAF8246CD2BF00F00590 /* AppDelegate.swift in Sources */,
 				AEBBEAFA246CD2BF00F00590 /* SceneDelegate.swift in Sources */,
