@@ -29,7 +29,7 @@ class GameViewController: UIViewController {
     @objc func up() {
         for i in 0..<3 {
             //端にきたら動かす向きを逆にする
-            if positionX[i] > width || positionX[i] < 0 {
+            if positionX[i] > width +  imageViewUpper.frame.size.width/2 || positionX[i] > width +  imageViewMiddle.frame.size.width/2 || positionX[i] > width +  imageViewBottom.frame.size.width/2 || positionX[i] < 0 - imageViewUpper.frame.size.width/2 || positionX[i] < 0 - imageViewMiddle.frame.size.width/2 || positionX[i] < 0 - imageViewBottom.frame.size.width/2{
                 dx[i] = dx[i] * (-1)
             }
             //画像に位置をdx分ずらす
